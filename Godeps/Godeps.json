@@ -1,0 +1,14 @@
+{
+	"ImportPath": "github.com/Alejosd/chatSd",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v74",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": ""
+		}
+	]
+}
