@@ -1,1 +1,1 @@
-web: github.com/Alejosd/chatSd
+web: appswebcommand
