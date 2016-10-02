@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
-	"./chat"
+	"chat"
 	"os"
 )
 
