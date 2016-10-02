@@ -1,1 +1,1 @@
-web: chatSd
+web: github.com/Alejosd/chatSd
