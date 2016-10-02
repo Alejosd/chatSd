@@ -22,7 +22,7 @@ func main() {
 	server := chat.NewServer("/entry")
 	go server.Listen()
 	// static files
-	http.Handle("/", http.FileServer(http.Dir("webroot")))
+	http.Handle("/", http.FileServer(http.Dir("github.com/Alejosd/chatSd/webroot")))
 
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
