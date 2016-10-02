@@ -4,13 +4,14 @@ import (
 	"log"
 	"net/http"
 	"chat"
-	"os"
+	//"os"
 )
 
 func main() {
 
-	port := os.Getenv("PORT")
+	//port := os.Getenv("PORT")
 
+	port:="80"
 	if port == "" {
 		//log.Fatal("$PORT must be set")
 		port="8080"
