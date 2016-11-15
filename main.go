@@ -11,7 +11,7 @@ func main() {
 
 	//port := os.Getenv("PORT")
 
-	port:="80"
+	port:="8080"
 	if port == "" {
 		//log.Fatal("$PORT must be set")
 		port="8080"
